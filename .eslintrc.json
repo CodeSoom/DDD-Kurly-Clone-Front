@@ -1,0 +1,44 @@
+{
+  "env": {
+    "jest": true
+  },
+  "root": true,
+  "extends": [
+    "next/core-web-vitals",
+    "airbnb"
+  ],
+  "plugins": [
+    "testing-library",
+    "@typescript-eslint"
+  ],
+  "overrides": [
+    // Only uses Testing Library lint rules in test files
+    {
+      "files": [
+        "**/__tests__/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test).[jt]s?(x)"
+      ],
+      "extends": ["plugin:testing-library/react"]
+    }
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".jsx"] }],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+   ],
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error"]
+  }
+}
