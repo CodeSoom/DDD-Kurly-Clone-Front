@@ -48,6 +48,9 @@ yarn-error.log*
 /coverage
 
 # cypress
-/cypress/videos
-/cypress/screenshots
+/cypress/*
+!/cypress/fixtures
+!/cypress/integration
+!/cypress/plugins
+!/cypress/support
 /.nyc_output
