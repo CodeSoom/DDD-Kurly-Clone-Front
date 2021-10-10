@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import DeliveryClassification from 'src/products/components/DeliveryClassification';
+import DeliveryClassification from 'src/products/components/ProductSummary/DeliveryClassification';
 
 describe('DeliveryClassification component', () => {
   const givenDeliveryClassification = 'New star delivery / Parcel delivery';
