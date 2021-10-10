@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import CountryOfOrigin from 'src/products/components/CountryOfOrigin';
+import CountryOfOrigin from 'src/products/components/ProductSummary/CountryOfOrigin';
 
 describe('CountryOfOrigin component', () => {
   const givenCountryOfOrigin = 'Tomato(Korean)';
