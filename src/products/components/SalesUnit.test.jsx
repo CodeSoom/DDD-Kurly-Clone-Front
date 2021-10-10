@@ -7,6 +7,9 @@ describe('SalesUnit component', () => {
 
   it('should renders given text', () => {
     render(<SalesUnit>{givenSalesUnit}</SalesUnit>);
-    screen.getByText(givenSalesUnit);
+
+    expect(
+      screen.getByText(givenSalesUnit),
+    ).toBeInTheDocument();
   });
 });
