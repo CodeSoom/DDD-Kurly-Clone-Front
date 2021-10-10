@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
 
 /**
  * @param { Object } Props Props.children is Product sales unit
