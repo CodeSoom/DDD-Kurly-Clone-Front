@@ -7,6 +7,9 @@ describe('WeightCapacity component', () => {
 
   it('should renders given text', () => {
     render(<WeightCapacity>{givenWeightCapacity}</WeightCapacity>);
-    screen.getByText(givenWeightCapacity);
+
+    expect(
+      screen.getByText(givenWeightCapacity),
+    ).toBeInTheDocument();
   });
 });
