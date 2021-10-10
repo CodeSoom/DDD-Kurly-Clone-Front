@@ -7,6 +7,9 @@ describe('DeliveryClassification component', () => {
 
   it('should renders given text', () => {
     render(<DeliveryClassification>{givenDeliveryClassification}</DeliveryClassification>);
-    screen.getByText(new RegExp(givenDeliveryClassification));
+
+    expect(
+      screen.getByText(givenDeliveryClassification),
+    ).toBeInTheDocument();
   });
 });
