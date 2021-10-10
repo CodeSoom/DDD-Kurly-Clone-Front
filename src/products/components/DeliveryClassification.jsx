@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */
-
 /**
  * @param { Object } Props Props.children is Product delivery classification
  * @param { React.ReactNode } Props.children Product delivery classification
