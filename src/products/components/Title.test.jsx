@@ -7,6 +7,9 @@ describe('Title component', () => {
 
   it('should renders given text', () => {
     render(<Title>{givenTitle}</Title>);
-    screen.getByText(givenTitle);
+
+    expect(
+      screen.getByText(givenTitle),
+    ).toBeInTheDocument();
   });
 });
