@@ -8,7 +8,10 @@ module.exports = {
     '!**/.next/**',
     '!**/cypress'
   ],
-  testMatch: ['**/*.test.[jt]s?(x)'],
+  testMatch: [
+    '**/__tests__/**/*.test.[jt]s?(x)',
+    '**/src/**/*.test.[jt]s?(x)',
+  ],
   moduleNameMapper: {
     // Handle CSS imports (with CSS modules)
     // https://jestjs.io/docs/webpack#mocking-css-modules
@@ -23,7 +26,8 @@ module.exports = {
 
     // Handle module aliases
     '^@/components/(.*)$': '<rootDir>/components/$1',
-    '^pages/(.*)$': '<rootDir>/pages/$1'
+    '^pages/(.*)$': '<rootDir>/pages/$1',
+    '^src/(.*)$': '<rootDir>/src/$1'
   },
   setupFilesAfterEnv: [
     '<rootDir>/jest.setup.js',
