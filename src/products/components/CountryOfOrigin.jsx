@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */
-
 /**
  * @param { Object } Props Props.children is Product country of origin
  * @param { React.ReactNode } Props.children Product country of origin
