@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */
-
 /**
  * @param { Object } Props Props.children is Product weight or capacity
  * @param { React.ReactNode } Props.children Product weight or capacity
