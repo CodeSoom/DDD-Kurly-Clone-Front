@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import PackagingType from 'src/products/components/PackagingType';
+import PackagingType from 'src/products/components/ProductSummary/PackagingType';
 
 describe('PackagingType component', () => {
   const givenPackagingType = 'Refrigerator / Paper packaging';
