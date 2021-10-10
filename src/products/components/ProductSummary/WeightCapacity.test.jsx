@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import WeightCapacity from 'src/products/components/WeightCapacity';
+import WeightCapacity from 'src/products/components/ProductSummary/WeightCapacity';
 
 describe('WeightCapacity component', () => {
   const givenWeightCapacity = '500g';
