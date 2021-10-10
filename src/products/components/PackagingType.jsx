@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */
-
 /**
  * @param { Object } Props Props.children is Product packaging type
  * @param { React.ReactNode } Props.children Product packaging type
