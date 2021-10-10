@@ -7,6 +7,9 @@ describe('CountryOfOrigin component', () => {
 
   it('should renders given text', () => {
     render(<CountryOfOrigin>{givenCountryOfOrigin}</CountryOfOrigin>);
-    screen.getByText(new RegExp(givenCountryOfOrigin));
+
+    expect(
+      screen.getByText(givenCountryOfOrigin),
+    ).toBeInTheDocument();
   });
 });
