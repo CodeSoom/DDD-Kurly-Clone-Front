@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import SalesUnit from 'src/products/components/SalesUnit';
+import SalesUnit from 'src/products/components/ProductSummary/SalesUnit';
 
 describe('SalesUnit component', () => {
   const givenSalesUnit = '1pack';
