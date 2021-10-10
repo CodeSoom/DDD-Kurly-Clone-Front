@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import ExpirationDate from 'src/products/components/ExpirationDate';
+import ExpirationDate from 'src/products/components/ProductSummary/ExpirationDate';
 
 describe('ExpirationDate component', () => {
   const givenExpirationDate = 'Mark the product separately/ We will ship it with at least 2 days left.';
