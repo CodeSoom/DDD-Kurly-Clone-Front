@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import Instructions from 'src/products/components/Instructions';
+import Instructions from 'src/products/components/ProductSummary/Instructions';
 
 describe('Instructions component', () => {
   const givenInstructions = `- Must Refrigerated.
