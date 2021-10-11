@@ -3,11 +3,14 @@
 ## How To Run
 ```bash
 # install packages
-$ yarn install
+$ yarn or yarn install
 
 # build app
 $ yarn build
 
-# run app
-$ yarn start
+# run app in dev mode
+$ yarn dev
+
+# run test
+$ yarn test
 ```
