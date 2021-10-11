@@ -7,6 +7,9 @@
     "next/core-web-vitals",
     "airbnb"
   ],
+  "globals": {
+    "context": "readonly"
+  },
   "plugins": [
     "testing-library",
     "@typescript-eslint"
