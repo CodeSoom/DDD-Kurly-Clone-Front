@@ -40,7 +40,7 @@ describe('OrderProduct', () => {
     });
   });
 
-  it('calls handleClick to process order', () => {
+  it('listens to handleClick click event to process order transaction', () => {
     render((
       <OrderProduct
         product={product}

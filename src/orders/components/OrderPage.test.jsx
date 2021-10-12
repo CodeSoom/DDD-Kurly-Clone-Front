@@ -9,7 +9,7 @@ describe('Order Page', () => {
     expect(screen.getByText('주문서')).toBeInTheDocument();
   });
 
-  it('calls handleClick to process order', () => {
+  it('listens to handleClick click event to process order transaction', () => {
     render(<OrderPage />);
 
     fireEvent.click(screen.getByRole('button', {
