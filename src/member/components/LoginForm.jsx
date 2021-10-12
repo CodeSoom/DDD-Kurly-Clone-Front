@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function LoginForm() {
   const loginForm = {
     id: 'codesoomer',
@@ -12,13 +14,10 @@ export default function LoginForm() {
     // TODO : slice 구현 후 필요한 로직 추가  및 메인페이지 완성 후 메인 페이지로 넘어가게 구현하기
   };
 
-  const handleClickSingup = () => {
-    // TODO : 메인페이지 완성 후 회원가입 페이지로 넘어가게 구현하기
-  };
-
   return (
     <fieldset>
       <input
+        data-testid="login-id"
         id="input-id"
         type="text"
         name="id"
@@ -37,7 +36,7 @@ export default function LoginForm() {
         placeholder="비밀번호를 입력해주세요"
       />
       <button type="button" onClick={handleSubmitLoginForm}>로그인</button>
-      <button type="button" onClick={handleClickSingup}>회원가입</button>
+      <Link href="/signup">회원가입</Link>
     </fieldset>
   );
 }
