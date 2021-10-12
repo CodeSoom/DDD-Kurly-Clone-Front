@@ -33,7 +33,7 @@ export default function SignUpTermsAndConditions() {
           <span>개인정보 수집﹒이용 동의</span>
           <span>(선택)</span>
         </label>
-        <input type="checkbox" id="sign-up-private2-agree" name="sign-up-private2-agree" />
+        <input type="checkbox" id="sign-up-check-private2-agree" name="sign-up-check-private2-agree" />
       </div>
       {/* 무료배송, 할인쿠폰 등 혜택/정보 수신 동의 */}
       <div>
@@ -41,11 +41,11 @@ export default function SignUpTermsAndConditions() {
           <span>무료배송, 할인쿠폰 등 혜택/정보 수신 동의</span>
           <span>(선택)</span>
         </label>
-        <input type="checkbox" id="sign-up-marketing-agree" name="sign-up-marketing-agree" />
+        <input type="checkbox" id="sign-up-check-marketing-agree" name="sign-up-check-marketing-agree" />
         <div>
           {/* SNS */}
           <div>
-            <label htmlFor="sign-up-check-sns-agree">SMS</label>
+            <label htmlFor="sign-up-check-sns-agree">SNS</label>
             <input type="checkbox" id="sign-up-check-sns-agree" name="sign-up-check-sns-agree" />
           </div>
           <div>
