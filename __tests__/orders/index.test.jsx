@@ -6,7 +6,6 @@ describe('Orders', () => {
   it('renders order title', () => {
     render(<Order />);
 
-
     expect(screen.getByText('주문서')).toBeInTheDocument();
   });
 });
