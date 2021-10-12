@@ -36,7 +36,7 @@ describe('OrderProduct', () => {
         />
       ));
 
-      expect(screen.getByText(`${product.price} 원`)).toBeInTheDocument();
+      expect(screen.getByText(`결제 예정 금액: ${product.price} 원`)).toBeInTheDocument();
     });
   });
 

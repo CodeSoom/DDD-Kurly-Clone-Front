@@ -32,7 +32,13 @@ export default function OrderProduct({ product, onClick }) {
         </dt>
       </dl>
 
-      <p>{price}</p>
+      <p>
+        결제 예정 금액:
+        {' '}
+        {price}
+        {' '}
+        원
+      </p>
 
       <button
         type="button"
