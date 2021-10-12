@@ -1,4 +1,4 @@
-export default function BasicInput({
+export default function SignUpBasicInput({
   title, required, placeholder, name, pattern,
   component,
 }) {

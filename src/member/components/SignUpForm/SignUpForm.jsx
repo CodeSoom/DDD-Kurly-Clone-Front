@@ -1,9 +1,9 @@
-import SignUpAddress from './SignUpAddress';
-import SignUpAdditionalRadio from './SignUpAdditionalRadio';
-import SignUpBasicInput from './SignUpBasicInput';
-import SignUpBirthInput from './SignUpBirthInput';
-import SignUpGenderRadio from './SignUpGenderRadio';
-import SignUpTermsAndConditions from './SignUpTermsAndConditions';
+import SignUpAddress from '../SignUpAddress';
+import SignUpAdditionalRadio from '../SignUpAdditionalRadio';
+import SignUpBasicInput from '../SignUpBasicInput';
+import SignUpBirthInput from '../SignUpBirthInput';
+import SignUpGenderRadio from '../SignUpGenderRadio';
+import SignUpTermsAndConditions from '../SignUpTermsAndConditions';
 
 export default function SignUpForm() {
   return (
