@@ -14,7 +14,7 @@ export default function OrderProduct({ product, onClick }) {
         </dt>
 
         <dd>
-          가격:
+          상품 금액:
         </dd>
         <dt>
           {price}
