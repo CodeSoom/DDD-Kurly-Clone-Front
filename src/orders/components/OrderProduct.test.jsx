@@ -10,6 +10,7 @@ describe('OrderProduct', () => {
     name: '샤인토마토',
     price: 7980,
     quantity: 1,
+    imgSrc: 'https://img-cf.kurly.com/shop/data/goods/1592812956809l0.jpg',
   };
 
   context('with products', () => {
@@ -37,6 +38,17 @@ describe('OrderProduct', () => {
       ));
 
       expect(screen.getByText(`결제 예정 금액: ${product.price} 원`)).toBeInTheDocument();
+    });
+
+    it('renders image of product', () => {
+      render((
+        <OrderProduct
+          product={product}
+          onClick={handleClick}
+        />
+      ));
+
+      expect(screen.getByRole('img')).toHaveAttribute('alt', product.name);
     });
   });
 

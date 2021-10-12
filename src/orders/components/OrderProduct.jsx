@@ -1,10 +1,20 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function OrderProduct({ product, onClick }) {
-  const { name, price, quantity } = product;
+  const {
+    name, price, quantity, imgSrc,
+  } = product;
 
   return (
     <>
+      <Image
+        src={imgSrc}
+        alt={name}
+        width={100}
+        height={100}
+      />
+
       <dl>
         <dd>
           상품명:
