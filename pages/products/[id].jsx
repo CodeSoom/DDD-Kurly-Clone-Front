@@ -13,12 +13,24 @@ export default function Product() {
       <h2>샤인마토 500g</h2>
       <h3>설탕 없이도 달달함을 머금은 방울토마토</h3>
 
-      <section>
-        <strong>
-          {(7_980).toLocaleString()}
+      <dl>
+        <dt style={{ fontSize: 0 }}>판매가격</dt>
+        <dd>
+          {(7_979).toLocaleString()}
           <small>원</small>
-        </strong>
-      </section>
+        </dd>
+
+        <dt style={{ fontSize: 0 }}>할인율</dt>
+        <dd>1%</dd>
+
+        <dt style={{ fontSize: 0 }}>원래 가격</dt>
+        <dd>
+          <del>
+            {(7_980).toLocaleString()}
+            <small>원</small>
+          </del>
+        </dd>
+      </dl>
 
       <dl>
         <dt>판매단위</dt>
