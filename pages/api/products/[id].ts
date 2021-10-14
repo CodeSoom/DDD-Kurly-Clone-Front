@@ -1,11 +1,11 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import type Data from 'pages/api/products/[id].interface';
+import type ProductData from 'pages/api/products/[id].interface';
 
 import mockData from 'pages/api/products/[id].mock';
 
 export default function handler(
   req: NextApiRequest,
-  res: NextApiResponse<Data>,
+  res: NextApiResponse<ProductData>,
 ) {
   const id = Number(req.query.id);
 

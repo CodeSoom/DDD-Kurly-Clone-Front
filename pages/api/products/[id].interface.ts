@@ -7,7 +7,7 @@ import type {
   OrderLink,
 } from 'pages/api/products/[id].type';
 
-interface Data {
+interface ProductData {
   id: ID;
   image: Image;
   name: Name;
@@ -16,4 +16,4 @@ interface Data {
   orderLink: OrderLink;
 }
 
-export default Data;
+export default ProductData;
