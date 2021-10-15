@@ -4,6 +4,7 @@ import { useAppDispatch, useAppSelector } from '../../common/hooks';
 
 import {
   changeLoginField,
+  login,
 } from '../slice';
 
 import { get } from '../../common/utils';
@@ -18,6 +19,8 @@ export default function LoginPage() {
   };
 
   const handleSubmitForm = () => {
+    dispatch(login());
+
     // TODO : slice 구현 후 필요한 로직 추가  및 메인페이지 완성 후 메인 페이지로 넘어가게 구현하기
   };
 
