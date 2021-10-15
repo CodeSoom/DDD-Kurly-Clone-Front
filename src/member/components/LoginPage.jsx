@@ -1,13 +1,20 @@
 import LoginForm from './LoginForm';
 
-export default function LoginPage() {
-  const loginForm = {
-    id: 'codesoomer',
-    password: 'codesoomer-password',
-  };
+import { useAppDispatch, useAppSelector } from '../../common/hooks';
 
-  const handleChangeField = () => {
-    // TODO : slice 구현 후 필요한 로직 추가 예정
+import {
+  changeLoginField,
+} from '../slice';
+
+import { get } from '../../common/utils';
+
+export default function LoginPage() {
+  const dispatch = useAppDispatch();
+
+  const loginFields = useAppSelector(get('loginFields'));
+
+  const handleChangeField = ({ name, value }) => {
+    dispatch(changeLoginField({ name, value }));
   };
 
   const handleSubmitForm = () => {
@@ -18,7 +25,7 @@ export default function LoginPage() {
     <>
       <h2>로그인</h2>
       <LoginForm
-        loginForm={loginForm}
+        loginForm={loginFields}
         onChange={handleChangeField}
         onSubmit={handleSubmitForm}
       />
