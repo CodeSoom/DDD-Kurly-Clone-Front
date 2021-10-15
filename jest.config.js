@@ -26,6 +26,7 @@ module.exports = {
 
     // Handle module aliases
     '^@/components/(.*)$': '<rootDir>/components/$1',
+    '^__tests__/(.*)$': '<rootDir>/__tests__/$1',
     '^pages/(.*)$': '<rootDir>/pages/$1',
     '^src/(.*)$': '<rootDir>/src/$1'
   },
