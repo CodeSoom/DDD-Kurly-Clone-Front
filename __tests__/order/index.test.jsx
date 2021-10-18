@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 
-import Order from 'pages/orders/index';
+import Order from 'pages/order/index';
 
-describe('Orders', () => {
+describe('Order', () => {
   it('renders order title', () => {
     render(<Order />);
 
