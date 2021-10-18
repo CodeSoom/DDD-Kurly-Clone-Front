@@ -21,7 +21,7 @@ export default function LoginForm({
         id="input-id"
         type="text"
         name="id"
-        value={loginForm.id}
+        value={loginForm?.id}
         onChange={handleChangeField}
         aria-label="id"
         placeholder="아이디를 입력해주세요"
@@ -31,7 +31,7 @@ export default function LoginForm({
         id="input-password"
         type="password"
         name="password"
-        value={loginForm.password}
+        value={loginForm?.password}
         onChange={handleChangeField}
         aria-label="password"
         placeholder="비밀번호를 입력해주세요"
