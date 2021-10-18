@@ -8,11 +8,13 @@
     "airbnb"
   ],
   "globals": {
-    "context": "readonly"
+    "context": "readonly",
+    "given": "readonly"
   },
   "plugins": [
     "testing-library",
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "cypress"
   ],
   "overrides": [
     // Only uses Testing Library lint rules in test files

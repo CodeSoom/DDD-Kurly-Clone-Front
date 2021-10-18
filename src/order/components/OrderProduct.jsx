@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Image from 'next/image';
 
 export default function OrderProduct({ product, onClick }) {
@@ -54,9 +53,7 @@ export default function OrderProduct({ product, onClick }) {
         type="button"
         onClick={onClick}
       >
-        <Link href="/">
-          주문 하기
-        </Link>
+        주문 하기
       </button>
     </>
   );

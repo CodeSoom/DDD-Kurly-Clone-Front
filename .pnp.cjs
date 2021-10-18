@@ -56,10 +56,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-airbnb", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:18.2.1"],
             ["eslint-config-next", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:11.1.2"],
             ["eslint-import-resolver-node", "npm:0.3.6"],
+            ["eslint-plugin-cypress", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:2.12.1"],
             ["eslint-plugin-import", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:2.24.2"],
             ["eslint-plugin-jsx-a11y", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:6.4.1"],
             ["eslint-plugin-react", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:7.26.1"],
             ["eslint-plugin-testing-library", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:4.12.4"],
+            ["given2", "npm:2.1.7"],
             ["identity-obj-proxy", "npm:3.0.0"],
             ["jest", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:27.2.4"],
             ["jest-plugin-context", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:2.9.0"],
@@ -6290,10 +6292,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-airbnb", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:18.2.1"],
             ["eslint-config-next", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:11.1.2"],
             ["eslint-import-resolver-node", "npm:0.3.6"],
+            ["eslint-plugin-cypress", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:2.12.1"],
             ["eslint-plugin-import", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:2.24.2"],
             ["eslint-plugin-jsx-a11y", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:6.4.1"],
             ["eslint-plugin-react", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:7.26.1"],
             ["eslint-plugin-testing-library", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:4.12.4"],
+            ["given2", "npm:2.1.7"],
             ["identity-obj-proxy", "npm:3.0.0"],
             ["jest", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:27.2.4"],
             ["jest-plugin-context", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:2.9.0"],
@@ -7125,6 +7129,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-module-utils", "npm:2.6.2"],
             ["debug", "virtual:396a3691f7b25accf085fe2fff1f56eb7540eff3f2e928a7572ca1de9b831ff8f22136404f236aaed35d90369918dfc34392844d0f822a310563f34746dfb015#npm:3.2.7"],
             ["pkg-dir", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["eslint-plugin-cypress", [
+        ["npm:2.12.1", {
+          "packageLocation": "./.yarn/cache/eslint-plugin-cypress-npm-2.12.1-6681f582fa-1f1c36e149.zip/node_modules/eslint-plugin-cypress/",
+          "packageDependencies": [
+            ["eslint-plugin-cypress", "npm:2.12.1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:2.12.1", {
+          "packageLocation": "./.yarn/__virtual__/eslint-plugin-cypress-virtual-6734079b82/0/cache/eslint-plugin-cypress-npm-2.12.1-6681f582fa-1f1c36e149.zip/node_modules/eslint-plugin-cypress/",
+          "packageDependencies": [
+            ["eslint-plugin-cypress", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:2.12.1"],
+            ["@types/eslint", null],
+            ["eslint", "npm:7.32.0"],
+            ["globals", "npm:11.12.0"]
+          ],
+          "packagePeers": [
+            "@types/eslint",
+            "eslint"
           ],
           "linkType": "HARD",
         }]
@@ -8149,6 +8176,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["getpass", "npm:0.1.7"],
             ["assert-plus", "npm:1.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["given2", [
+        ["npm:2.1.7", {
+          "packageLocation": "./.yarn/cache/given2-npm-2.1.7-04c36b3b77-42ca68f48d.zip/node_modules/given2/",
+          "packageDependencies": [
+            ["given2", "npm:2.1.7"]
           ],
           "linkType": "HARD",
         }]
