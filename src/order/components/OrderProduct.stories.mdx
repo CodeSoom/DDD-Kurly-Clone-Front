@@ -1,0 +1,29 @@
+import { Meta, Story, Canvas } from '@storybook/addon-docs';
+
+import OrderProduct from 'src/order/components/OrderProduct';
+
+<Meta
+  title="order/components/OrderProduct"
+  component={OrderProduct}
+/>
+
+export const Template = (args) => <OrderProduct
+  {...args}
+  product={{
+    name: '샤인마토 500g',
+    price: 7980,
+    quantity: 1,
+    imgSrc: '/image/sample_product.jpeg',
+  }}
+/>;
+
+<Canvas>
+  <Story
+    name="샤인마토 샘플"
+    argTypes={{
+      onClick: { action: 'clicked' },
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
