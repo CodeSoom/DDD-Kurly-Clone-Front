@@ -40,7 +40,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@cypress/code-coverage", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:3.9.11"],
             ["@emotion/react", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:11.4.1"],
             ["@emotion/styled", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:11.3.0"],
+            ["@mdx-js/loader", "npm:1.6.22"],
             ["@mdx-js/react", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:1.6.22"],
+            ["@next/mdx", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:11.1.2"],
             ["@reduxjs/toolkit", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:1.6.1"],
             ["@storybook/addon-actions", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:6.3.12"],
             ["@storybook/addon-docs", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:6.3.12"],
@@ -6481,6 +6483,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@next/eslint-plugin-next", "npm:11.1.2"],
             ["glob", "npm:7.1.7"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@next/mdx", [
+        ["npm:11.1.2", {
+          "packageLocation": "./.yarn/cache/@next-mdx-npm-11.1.2-96823ff793-2fb2bf5066.zip/node_modules/@next/mdx/",
+          "packageDependencies": [
+            ["@next/mdx", "npm:11.1.2"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:11.1.2", {
+          "packageLocation": "./.yarn/__virtual__/@next-mdx-virtual-19e5035070/0/cache/@next-mdx-npm-11.1.2-96823ff793-2fb2bf5066.zip/node_modules/@next/mdx/",
+          "packageDependencies": [
+            ["@next/mdx", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:11.1.2"],
+            ["@mdx-js/loader", "npm:1.6.22"],
+            ["@mdx-js/react", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:1.6.22"],
+            ["@types/mdx-js__loader", null],
+            ["@types/mdx-js__react", "npm:1.5.4"]
+          ],
+          "packagePeers": [
+            "@mdx-js/loader",
+            "@mdx-js/react",
+            "@types/mdx-js__loader",
+            "@types/mdx-js__react"
           ],
           "linkType": "HARD",
         }]
@@ -13756,7 +13784,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@cypress/code-coverage", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:3.9.11"],
             ["@emotion/react", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:11.4.1"],
             ["@emotion/styled", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:11.3.0"],
+            ["@mdx-js/loader", "npm:1.6.22"],
             ["@mdx-js/react", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:1.6.22"],
+            ["@next/mdx", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:11.1.2"],
             ["@reduxjs/toolkit", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:1.6.1"],
             ["@storybook/addon-actions", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:6.3.12"],
             ["@storybook/addon-docs", "virtual:1643da583decd68e40624a4e73899bf9f32a2c829d019666699f766e616172a2b70e6870ec447f2ade53dfd1d233a0b5580c4a51e766a2e258bb0dd8a6dca395#npm:6.3.12"],

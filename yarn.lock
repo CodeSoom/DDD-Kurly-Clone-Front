@@ -2611,6 +2611,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@next/mdx@npm:^11.1.2":
+  version: 11.1.2
+  resolution: "@next/mdx@npm:11.1.2"
+  peerDependencies:
+    "@mdx-js/loader": ">=0.15.0"
+    "@mdx-js/react": "*"
+  checksum: 2fb2bf5066f3b1425466b6bc34083eca5f198ecaccd5473731d8b6fa7a146706570b7422207bb171b4dfbf1e8d7618e7e2634eb34e388f35f955ee4434501428
+  languageName: node
+  linkType: hard
+
 "@next/polyfill-module@npm:11.1.2":
   version: 11.1.2
   resolution: "@next/polyfill-module@npm:11.1.2"
@@ -8039,7 +8049,9 @@ __metadata:
     "@cypress/code-coverage": ^3.9.11
     "@emotion/react": ^11.4.1
     "@emotion/styled": ^11.3.0
+    "@mdx-js/loader": ^1.6.22
     "@mdx-js/react": ^1.6.22
+    "@next/mdx": ^11.1.2
     "@reduxjs/toolkit": ^1.6.1
     "@storybook/addon-actions": ^6.3.12
     "@storybook/addon-docs": ^6.3.12
