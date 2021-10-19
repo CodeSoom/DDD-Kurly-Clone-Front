@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import SignUpGenderRadio from './SignUpGenderRadio';
+import SignUpGenderRadio from '.';
 
 describe('SignUpGenderRadio', () => {
   it('renders title', () => {

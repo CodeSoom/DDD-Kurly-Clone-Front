@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import SignUpAddress from './SignUpAddress';
+import SignUpAddress from '.';
 
 describe('SignUpAddress', () => {
   it('renders title', () => {

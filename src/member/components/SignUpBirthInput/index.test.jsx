@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import SignUpBirthInput from './SignUpBirthInput';
+import SignUpBirthInput from '.';
 
 describe('SignUpBirthInput', () => {
   it('renders title', () => {

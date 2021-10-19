@@ -1,3 +1,35 @@
-import SignUpBirthInput from './SignUpBirthInput';
-
-export default SignUpBirthInput;
+export default function SignUpBirthInput() {
+  return (
+    <div>
+      <p>
+        <span>생년월일</span>
+      </p>
+      <div>
+        <input
+          type="text"
+          name="sign-up-birth-year"
+          pattern="[0-9]*"
+          size="4"
+          maxLength="4"
+          placeholder="YYYY"
+        />
+        <input
+          type="text"
+          name="sign-up-birth-month"
+          pattern="[0-9]*"
+          size="2"
+          maxLength="2"
+          placeholder="MM"
+        />
+        <input
+          type="text"
+          name="sign-up-birth-day"
+          pattern="[0-9]*"
+          size="2"
+          maxLength="2"
+          placeholder="DD"
+        />
+      </div>
+    </div>
+  );
+}

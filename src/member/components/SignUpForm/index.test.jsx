@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import SignUpForm from './SignUpForm';
+import SignUpForm from '.';
 
 describe('SignUpForm', () => {
   it('renders titles', () => {

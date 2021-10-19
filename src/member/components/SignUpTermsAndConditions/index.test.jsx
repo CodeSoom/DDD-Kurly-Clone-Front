@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import SignUpTermsAndConditions from './SignUpTermsAndConditions';
+import SignUpTermsAndConditions from '.';
 
 describe('SignUpTermsAndConditions', () => {
   it('renders title', () => {

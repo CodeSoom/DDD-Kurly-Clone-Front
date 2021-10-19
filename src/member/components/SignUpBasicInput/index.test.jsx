@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import SignUpBasicInput from './SignUpBasicInput';
+import SignUpBasicInput from '.';
 
 describe('SignUpBasicInput', () => {
   function renderSignUpBasicInput() {

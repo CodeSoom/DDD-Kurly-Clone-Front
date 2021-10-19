@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import SignUpAdditionalRadio from './SignUpAdditionalRadio';
+import SignUpAdditionalRadio from '.';
 
 describe('SignUpAdditionalRadio', () => {
   it('renders title', () => {
