@@ -1,10 +1,5 @@
-import SignUpFormContainer from '../src/member/containers/SignUpFormContainer';
+import SignUpPage from 'src/member/components/SignUpPage';
 
 export default function SignUp() {
-  return (
-    <section>
-      <h2>회원가입</h2>
-      <SignUpFormContainer />
-    </section>
-  );
+  return <SignUpPage />;
 }
